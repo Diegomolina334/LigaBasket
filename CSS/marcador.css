@@ -1,0 +1,61 @@
+.resultado {
+    font-weight: bold;
+    display: inline-block; /* Mostrar como elemento en línea */
+    padding: 5px; /* Relleno interno del cuadro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-left: 40px; /* Margen izquierdo para separar los cuadros */
+}
+
+.ganador {
+    color: green;
+    border: 2px solid green; /* Borde verde para el marcador ganador */
+}
+
+.perdedor {
+    color: red;
+    border: 2px solid red; /* Borde rojo para el marcador perdedor */
+}
+
+/* Estilos para los cuadros de equipo */
+.equipo {
+    margin-right: 20px; /* Margen derecho para separar los cuadros de equipo */
+    display: inline-block; /* Mostrar como elemento en línea */
+}
+
+.buscador-duelos {
+    margin-left: 20px;
+    margin-top: 10px; /* Agregar margen superior de 80px */
+    display: inline-block; /* Mostrar como elemento en línea */
+    width: 400px; /* Ancho del formulario aumentado a 400px */
+}
+
+.buscador-duelos form {
+    display: flex;
+    align-items: center;
+}
+
+.buscador-duelos form label {
+    margin-left: -190px; /* Espacio a la derecha del label */
+}
+
+.buscador-duelos form input[type="date"] {
+    margin-right: 10px; /* Espacio a la derecha del input de fecha */
+    padding: 3px 15px;
+}
+
+.buscador-duelos form button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    padding: 8px 15px; /* Espaciado interno del botón aumentado */
+    cursor: pointer;
+}
+
+.tabla-container {
+    position: fixed; /* Fija la posición de la tabla */
+    top: 3; /* La tabla estará en la parte superior */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 999; /* Asegura*/
+
+}
